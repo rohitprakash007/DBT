@@ -6,11 +6,13 @@ sources:
       - name: TABLES
       - name: COLUMNS
 
+sources:
   - name: test2
     tables:
       - name: TABLES
       - name: COLUMNS
 
+sources:
   - name: test3
     tables:
       - name: TABLES

@@ -7,4 +7,3 @@ with
     )
 select *
 from dbt_tabs
-;
