@@ -1,8 +1,10 @@
-with 
-DBT_TABS as (
-select * from DBT.INFORMATION_SCHEMA.tables where table_Catalog = 'DBT'),
-DBT_COLUMNS as (
-select * from DBT.INFORMATION_SCHEMA.columns where table_Catalog = 'DBT')
-select * from DBT_TABS;
-
-
+with
+    dbt_tabs as (
+        select * from dbt.information_schema.tables where table_catalog = 'DBT'
+    ),
+    dbt_columns as (
+        select * from dbt.information_schema.columns where table_catalog = 'DBT'
+    )
+select *
+from dbt_tabs
+;

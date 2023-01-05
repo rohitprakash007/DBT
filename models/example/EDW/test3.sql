@@ -1,4 +1,4 @@
-with DBT_TAB_COL_2 as (
-    select * from {{ref('test2')}}
-)
-SELECT * from DBT_TAB_COL_2;
+with dbt_tab_col_2 as (select * from {{ ref("test2") }})
+select *
+from dbt_tab_col_2
+;

@@ -8,8 +8,10 @@ sources:
 
   - name: test2
     tables:
+      - name: TABLES
       - name: COLUMNS
 
   - name: test3
     tables:
       - name: TABLES
+      - name: COLUMNS
