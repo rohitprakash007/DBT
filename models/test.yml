@@ -13,4 +13,3 @@ sources:
   - name: test3
     tables:
       - name: DBT_TAB_COL_2
-      
