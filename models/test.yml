@@ -8,8 +8,8 @@ sources:
 
   - name: test2
     tables:
-      - name: DBT_TABS
+      - name: COLUMNS
 
   - name: test3
     tables:
-      - name: DBT_TAB_COL_2
+      - name: TABLES
