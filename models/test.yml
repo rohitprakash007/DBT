@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: test1
+    tables:
+      - name: TABLES
+      - name: COLUMNS
+
+  - name: test2
+    tables:
+      - name: test1
