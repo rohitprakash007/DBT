@@ -8,4 +8,9 @@ sources:
 
   - name: test2
     tables:
-      - name: test1
+      - name: DBT_TABS
+
+  - name: test3
+    tables:
+      - name: DBT_TAB_COL_2
+      
