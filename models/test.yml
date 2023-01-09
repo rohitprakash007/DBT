@@ -1,5 +1,8 @@
 version: 2
 
+models:
+    - name: test1
+      description: "Base script"
 sources:
   - name: test1
     tables:
